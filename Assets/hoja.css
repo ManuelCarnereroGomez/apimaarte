@@ -1,14 +1,13 @@
 body {
-    margin: 70px;
+    margin-left: 70px;
+    margin-top: 15px;
     padding: 0;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.5;
     background: rgb(65, 46, 137);
     background: linear-gradient(90deg, #3f2c8e 0%, rgb(22, 105, 101) 51%, rgb(59, 20, 111) 100%);
 
 }
-
 
 .cohete {
     width: 300px;
@@ -23,11 +22,13 @@ body {
 
 h1 {
     color: white;
+    margin-top: 50px;
 }
 
 .imgnave {
-    width: 100%;
-    height: auto;
+    width: 70%;
+    display: flex;
+    justify-content: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -54,7 +55,12 @@ h1 {
     position: absolute;
     display: block;
 }
-
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
 #span1 {
     top: 0;
     left: -100%;
@@ -70,6 +76,7 @@ h1 {
 
 .container{
     display: flex;
+    margin-right: 100px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -95,6 +102,7 @@ h1 {
 
 .caja{
     width: 100%;
+    margin-left: 5px;
 }
 
 .caja2{
