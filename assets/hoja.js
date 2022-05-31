@@ -1,6 +1,6 @@
 // api de Lourdes https://mars-weather-rems.netlify.app/rems.json
 
- const url = 'http://cab.inta-csic.es/rems/rems_weather.xml';
+ const url = 'https://cab.inta-csic.es/rems/rems_weather.xml';
 
 let tiempo = {
     tempMinima: '',
